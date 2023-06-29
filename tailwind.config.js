@@ -13,6 +13,7 @@ module.exports = {
         "base-100": "#222222",
         light: "#F6F5F4",
         gray: "#00000014",
+        gold: "#ffd55a",
       },
       fontFamily: {
         inter: ["var(--inter)"],

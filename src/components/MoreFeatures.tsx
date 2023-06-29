@@ -60,7 +60,7 @@ const MoreFeatures = () => {
 
           <div className="flex flex-col gap-4 md:grid md:grid-cols-2 lg:grid-cols-12 lg:gap-y-8">
             <div className="p-8 flex flex-col gap-y-5 bg-light rounded-xl lg:rounded-2xl lg:col-span-8">
-              <div className="w-9 h-9">
+              <div className="w-9 h-9 lg:w-12 lg:h-12">
                 <Carrot />
               </div>
               <div className="flex flex-col gap-y-[10px]">
