@@ -4,7 +4,7 @@ import shopping from "../../public/img/shopping.webp";
 
 const Features = () => {
   return (
-    <section className="py-12 px-3 lg:py-16 lg:px-8">
+    <section className="py-12 px-6 lg:py-16 lg:px-8">
       <div className="flex flex-col space-y-12 ">
         <div className="flex flex-col gap-y-4">
           <h3 className="tracking-[0.25em] leading-[1.7em] text-center">
