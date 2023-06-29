@@ -5,6 +5,8 @@ import MoreFeatures from "@/components/MoreFeatures";
 import Quote from "@/components/icons/Quote";
 import Testimonial from "@/components/Testimonial";
 import Faq from "@/components/Faq";
+import CTA from "@/components/CTA";
+import Join from "@/components/Join";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <Quote />
       {/* <Testimonial /> */}
       <Faq />
+      <CTA />
+      <Join />
     </Layout>
   );
 }

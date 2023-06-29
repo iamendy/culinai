@@ -11,7 +11,7 @@ const inter = Inter({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={`${inter.variable}`}>
+    <main className={`${inter.variable} overflow-hidden`}>
       <Component {...pageProps} />
     </main>
   );

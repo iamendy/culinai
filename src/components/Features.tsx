@@ -30,7 +30,7 @@ const Features = () => {
               <Image src={planning} alt="meal planning" />
             </div>
             <div className="flex flex-col gap-y-4">
-              <h4 className="text-base-100 text-xl font-bold leading-[1.2em] lg:24px lg:leading-[1.4em]">
+              <h4 className="text-base-100 text-xl font-bold leading-[1.2em] lg:text-[24px] lg:leading-[1.4em]">
                 {" "}
                 Effortless Planning
               </h4>
@@ -48,9 +48,9 @@ const Features = () => {
               <Image src={shopping} alt="meal planning" />
             </div>
             <div className="flex flex-col gap-y-4">
-              <h4 className="text-base-100 text-xl font-bold leading-[1.2em] lg:24px lg:leading-[1.4em]">
+              <h4 className="text-base-100 text-xl font-bold leading-[1.2em] lg:text-[24px] lg:leading-[1.4em]">
                 {" "}
-                Effortless Planning
+                Shopping List
               </h4>
               <p className="lg:text-lg lg:leading-[1.75em]">
                 Streamline your meal planning process with our Notion template,
