@@ -8,10 +8,10 @@ const Join = () => {
         <p className="text-[16px] leading-[1.75em] lg:text-lg">
           Sign up to receive updates and discount
         </p>
-        <div className="bg-light px-2 py-1 flex justify-between rounded-md items-center lg:w-[50%] lg:mx-auto">
+        <div className="bg-light px-2 py-1 flex justify-between rounded-md items-center lg:w-[40%] lg:mx-auto">
           <input
             type="text"
-            className=" bg-light p-2 focus:outline-none focus-within:outline-none"
+            className=" bg-light p-2 focus:outline-none focus-within:outline-none lg:w-[60%]"
             placeholder="youremail@example.com"
           />
           <button className="bg-black text-white px-5 rounded-md py-3 leading-none">

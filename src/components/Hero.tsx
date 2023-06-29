@@ -5,7 +5,7 @@ import Stroke from "./icons/Stroke";
 const Hero = () => {
   return (
     <section className="py-8 px-4 lg:pt-24 lg:px-7 pb-16">
-      <header className="flex flex-col gap-y-12">
+      <header className="flex flex-col gap-y-12 xl:max-w-[1080px] xl:mx-auto">
         <div className="flex flex-col space-y-6">
           <h1
             className="font-inter font-bold tracking-[-0.04em] leading-[1.2em] text-base-100 text-4xl text-center

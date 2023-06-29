@@ -5,7 +5,7 @@ import shopping from "../../public/img/shopping.webp";
 const Features = () => {
   return (
     <section className="py-12 px-6 lg:py-16 lg:px-8">
-      <div className="flex flex-col space-y-12 ">
+      <div className="flex flex-col space-y-12 xl:max-w-[1080px] xl:mx-auto">
         <div className="flex flex-col gap-y-4">
           <h3 className="tracking-[0.25em] leading-[1.7em] text-center">
             FEATURES
@@ -17,7 +17,7 @@ const Features = () => {
           >
             Streamline your meal planning process
           </h2>
-          <p className="text-sm text-center leading-[1.75em] md:w-[70%] md:mx-auto lg:text-base lg:w-[65%]">
+          <p className="text-sm text-center leading-[1.75em] md:w-[70%] md:mx-auto lg:text-base lg:w-[65%] ">
             Streamline your meal planning process and ensure you never miss an
             ingredient with our Notion template, offering effortless planning
             and automatic generation of comprehensive grocery lists.
