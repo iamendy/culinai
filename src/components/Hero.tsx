@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="flex flex-col space-y-6">
           <h1
             className="font-inter font-bold tracking-[-0.04em] leading-[1.2em] text-base-100 text-4xl text-center
-          md:w-[70%] md:mx-auto lg:text-[56px] "
+          md:w-[70%] md:mx-auto lg:text-[56px]"
           >
             <span className="relative inline-block">
               Supercharge <Stroke />
@@ -18,7 +18,7 @@ const Hero = () => {
           </h1>
 
           <p
-            className="text-lg font-medium leading-[1.75em] text-center text-base
+            className="text-lg font-medium leading-[1.75em] text-center 
           md:w-[70%] md:mx-auto lg:w-[60%] lg:text-2xl"
           >
             Our meal planner helps you to manage your shopping list and stay in

@@ -4,6 +4,7 @@ import Layout from "@/components/Layout";
 import MoreFeatures from "@/components/MoreFeatures";
 import Quote from "@/components/icons/Quote";
 import Testimonial from "@/components/Testimonial";
+import Faq from "@/components/Faq";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
       <Features />
       <MoreFeatures />
       <Quote />
-      <Testimonial />
+      {/* <Testimonial /> */}
+      <Faq />
     </Layout>
   );
 }
